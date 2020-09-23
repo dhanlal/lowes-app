@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dhanlal/lowes-app/static/css/main.98a0f67a.chunk.css",
+    "main.js": "/dhanlal/lowes-app/static/js/main.dda95983.chunk.js",
+    "main.js.map": "/dhanlal/lowes-app/static/js/main.dda95983.chunk.js.map",
+    "runtime-main.js": "/dhanlal/lowes-app/static/js/runtime-main.9a86392a.js",
+    "runtime-main.js.map": "/dhanlal/lowes-app/static/js/runtime-main.9a86392a.js.map",
+    "static/css/2.5404495b.chunk.css": "/dhanlal/lowes-app/static/css/2.5404495b.chunk.css",
+    "static/js/2.71de70bc.chunk.js": "/dhanlal/lowes-app/static/js/2.71de70bc.chunk.js",
+    "static/js/2.71de70bc.chunk.js.map": "/dhanlal/lowes-app/static/js/2.71de70bc.chunk.js.map",
+    "index.html": "/dhanlal/lowes-app/index.html",
+    "precache-manifest.ccfde55a3591ff48ea1fff0b3658a414.js": "/dhanlal/lowes-app/precache-manifest.ccfde55a3591ff48ea1fff0b3658a414.js",
+    "service-worker.js": "/dhanlal/lowes-app/service-worker.js",
+    "static/css/2.5404495b.chunk.css.map": "/dhanlal/lowes-app/static/css/2.5404495b.chunk.css.map",
+    "static/css/main.98a0f67a.chunk.css.map": "/dhanlal/lowes-app/static/css/main.98a0f67a.chunk.css.map",
+    "static/js/2.71de70bc.chunk.js.LICENSE.txt": "/dhanlal/lowes-app/static/js/2.71de70bc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a86392a.js",
+    "static/css/2.5404495b.chunk.css",
+    "static/js/2.71de70bc.chunk.js",
+    "static/css/main.98a0f67a.chunk.css",
+    "static/js/main.dda95983.chunk.js"
+  ]
+}
