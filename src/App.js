@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import LoginForm from "./logincompo/LoginForm";
+import Datainfo from "./datalist/Datainfo";
+import ReactDOM from "react-dom";
+import ReactDataGrid from 'react-data-grid';
+import 'react-data-grid/dist/react-data-grid.css';
+import Freezcolumn from "./datalist/Freezecolum";
+import createRowData from "./datalist/createRowData";
+import { BrowserRouter as Router, Route } from 'react-router-dom/cjs/react-router-dom.min';
+import { Redirect } from 'react-router';
 
-function App() {
-  return (
+  class App extends Component {
+    constructor(){
+     super();
+     this.state =  {
+       list: {name: "hello"}
+     }
+    }
+  render(){
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+          <Route path="/" exact>
+            <Redirect to="/login"/>
+          </Route>
+          <Route path="/login">
+          < LoginForm />
+          </Route>
+          <Route path="/datainfo">
+            <Datainfo />
+          </Route>
+          <Route path="/freezcolumn">
+            <Freezcolumn />
+          </Route>
+      </Router>
+      <div>
+        {this.state.list.name }
+      </div>
     </div>
+
   );
-}
+}}
 
 export default App;
